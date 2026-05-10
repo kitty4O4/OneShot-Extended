@@ -6,7 +6,7 @@ This is an improved version of the original OneShot
 ## Advantages over original OneShot
  - Highlighting of a vulnerable WPS version (1.0) in the scanner
  - Ability to save the AP right into the Network Manager of your system
- - Ability to do a WPS Null/blank pin attack
+ - Ability to do a WPS Null/Blank pin attack
  - Ability to clear the screen every scan
  - Minor changes (e.g, WPA3TM indication, better vulnwsc detection, RF-Kill handling)
  - Works on modern python versions (>3.9)
@@ -15,7 +15,7 @@ This is an improved version of the original OneShot
 # Features
  - [Pixie Dust Attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack)
  - Offline WPS PIN generating algorithm
- - [Online WPS bruteforce](https://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf)
+ - [Online WPS Bruteforce](https://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf)
  - Wi-Fi scanner with highlighting based on iw;
  - Ability to write to a file
 
