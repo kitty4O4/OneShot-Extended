@@ -72,7 +72,6 @@ Advanced arguments:
 **Running**
 ```shell
  cd OneShot-Extended
-```shell
  sudo python ose.py -i wlan0 -K --dts
  ```
 
