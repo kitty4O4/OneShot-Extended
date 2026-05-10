@@ -1,5 +1,5 @@
 # Overview
-**OneShot-Extended** performs the [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack) without the requirement of monitor mode.
+**OneShot-Extended** performs the [Pixie Dust Attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack) without the requirement of monitor mode.
 
 This is an improved version of the original OneShot
 
@@ -13,7 +13,7 @@ This is an improved version of the original OneShot
  - Improved Android support
 
 # Features
- - [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack)
+ - [Pixie Dust Attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack)
  - Offline WPS PIN generating algorithm
  - [Online WPS bruteforce](https://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf)
  - Wi-Fi scanner with highlighting based on iw;
@@ -67,12 +67,13 @@ Advanced arguments:
 
 ## Downloading the repository
  ```shell
- cd ~
- git clone https://github.com/chickendrop89/OneShot-Extended ose
+ git clone https://github.com/kitty4O4/OneShot-Extended 
  ```
 **Running**
- ```shell
- sudo python ose/ose.py -i wlan0
+```shell
+ cd OneShot-Extended
+```shell
+ sudo python ose.py -i wlan0 -K --dts
  ```
 
 # Update procedure
@@ -81,7 +82,7 @@ Advanced arguments:
 cd OneShot-Extended
 ```
 
-2. Update via git to latest commit, this will revert any local changes
+2. Update via git to latest commit, this will revert any local changes (optional)
 ```
 git fetch
 git reset --hard origin/master
