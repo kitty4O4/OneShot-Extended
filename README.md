@@ -16,7 +16,7 @@ This is an improved version of the original OneShot
  - [Pixie Dust Attack](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup#Security_problems)
  - Offline WPS PIN generation algorithm
  - [Online WPS Bruteforce](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup#Security_problems)
- - Wi-Fi scanner with highlighting based on iw;
+ - Wi-Fi scanner with highlighting based on iw
  - Ability to write to a file
 
 # Usage
