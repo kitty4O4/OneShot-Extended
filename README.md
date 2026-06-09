@@ -1,5 +1,5 @@
 # Overview
-**OneShot-Extended** performs the [Pixie Dust Attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack) without the requirement of monitor mode.
+**OneShot-Extended** performs the [Pixie Dust Attack](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup#Security_problems) without the requirement of monitor mode.
 
 This is an improved version of the original OneShot
 
@@ -13,9 +13,9 @@ This is an improved version of the original OneShot
  - Improved Android support
 
 # Features
- - [Pixie Dust Attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack)
- - Offline WPS PIN generating algorithm
- - [Online WPS Bruteforce](https://sviehb.files.wordpress.com/2011/12/viehboeck_wps.pdf)
+ - [Pixie Dust Attack](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup#Security_problems)
+ - Offline WPS PIN generation algorithm
+ - [Online WPS Bruteforce](https://en.wikipedia.org/wiki/Wi-Fi_Protected_Setup#Security_problems)
  - Wi-Fi scanner with highlighting based on iw;
  - Ability to write to a file
 
